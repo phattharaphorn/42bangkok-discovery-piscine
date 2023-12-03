@@ -7,7 +7,7 @@
   - Basic **Shell** **Script**, is one of the tools that developers must use.
   - **HTML** is the main language for structuring web pages that you can use. We will practice intensively.
   - **CSS** Learn how to decorate our web pages to make them beautiful and modern.
-  - JavaScript adds features to make our web pages stand out with JavaScript.
+  - **JavaScript** adds features to make our web pages stand out with JavaScript.
     
 ## Cell - Directory
 - [Cell 00](cell-00)
@@ -44,4 +44,4 @@
 - [CIE Project](cie-project)
   
 ## My project partner
-- Pann Mekmok (pann) : Computer Innovation Engineering (CIE) , KMTL
+- Pann Mekmok : Computer Innovation Engineering (CIE) , KMTL
