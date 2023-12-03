@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #ft_list > div {
+      margin: 10px;
+      background-color: #f47721;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    #ft_list > div:hover {
+      background-color: #fab281;
+    }
+  </style>
+  <body>
+    <div style="width: 100%; text-align: center">
+      <h1>TODO LIST</h1>
+      <div
+        style="margin-left: auto; margin-right: auto; padding: 10px"
+        id="ft_list"
+      ></div>
+      <button onclick="create()">NEW</button>
+    </div>
+  </body>
+  <script src="todo.js"></script>
+</html>

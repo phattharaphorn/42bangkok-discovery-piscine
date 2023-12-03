@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }
+    #ballon {
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 200px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div
+        id="ballon"
+        style="width: 200px; height: 200px; background-color: red"
+      ></div>
+    </div>
+  </body>
+  <script>
+    $("#ballon").click(() => {
+      const colors = ["rgb(255, 0, 0)", "rgb(0, 255, 0)", "rgb(0, 0, 255)"];
+      const ballon = $("#ballon");
+      let width = ballon.width() + 10;
+      let height = ballon.height() + 10;
+      if (width > 420) {
+        ballon.css("width", "200px");
+        ballon.css("height", "200px");
+        ballon.css("background-color", "red");
+      } else {
+        ballon.css("width", width);
+        ballon.css("height", height);
+        const color = ballon.css("background-color");
+        ballon.css(
+          "background-color",
+          colors[(colors.findIndex((e) => e == color) + 1) % 3]
+        );
+      }
+    });
+    $("#ballon").mouseleave(() => {
+      const colors = ["rgb(0, 0, 255)", "rgb(0, 255, 0)", "rgb(255, 0, 0)"];
+      const ballon = $("#ballon");
+
+      let width = ballon.width() - 5;
+      let height = ballon.height() - 5;
+      if (width < 200) {
+        ballon.css("width", "200px");
+        ballon.css("height", "200px");
+      } else {
+        ballon.css("width", width);
+        ballon.css("height", height);
+      }
+      const color = ballon.css("background-color");
+      ballon.css(
+        "background-color",
+        colors[(colors.findIndex((e) => e == color) + 1) % 3]
+      );
+    });
+  </script>
+</html>

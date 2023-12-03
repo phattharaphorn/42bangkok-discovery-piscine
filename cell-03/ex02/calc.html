@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="calc.css" rel="stylesheet" />
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h1>Calculator</h1>
+        <form onsubmit="calculate()">
+          <input type="text" id="num1" required />
+          <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+          </select>
+          <input type="text" id="num2" required />
+          <input type="submit" value="Try me!" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

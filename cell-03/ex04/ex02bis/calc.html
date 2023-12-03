@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <link href="calc.css" rel="stylesheet" />
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h1>Calculator</h1>
+        <form id="target">
+          <input type="text" name="num1" required />
+          <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+          </select>
+          <input type="text" name="num2" required />
+          <input type="submit" value="Try me!" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script>
+    $("#target").submit((event) => {
+      event.preventDefault();
+      const num1 = parseFloat(event.target.num1.value);
+      const num2 = parseFloat(event.target.num2.value);
+      const operator = event.target.operator.value;
+      let ans = 0;
+      if (isNaN(num1) || isNaN(num2)) {
+        console.log("Error :(");
+        alert("Error :(");
+        return;
+      }
+      if (num1 < 0 || num2 < 0) {
+        console.log("Error :(");
+        alert("Error :(");
+        return;
+      } else if (operator == "+") {
+        ans = num1 + num2;
+      } else if (operator == "-") {
+        ans = num1 - num2;
+      } else if (operator == "*") {
+        ans = num1 * num2;
+      } else if (operator == "/") {
+        ans = num1 / num2;
+      } else if (operator == "%") {
+        ans = num1 % num2;
+      }
+      if (isNaN(ans)) {
+        console.log("It’s over 9000!");
+        alert("It’s over 9000!");
+      } else {
+        console.log(ans);
+        alert(ans);
+      }
+    });
+  </script>
+</html>

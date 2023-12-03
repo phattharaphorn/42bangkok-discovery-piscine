@@ -1,0 +1,9 @@
+.container-fluid {
+  width: 100%;
+  display: flex;
+}
+.container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
