@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+.container-fluid {
+
+}
+table {
+    margin: auto;
+}
+td {
+    padding: 5vw;
+}
+.profile {
+    margin-top: 5vw;
+    margin-left: 10%;
+    height: 30vw;
+    width: 30vw;
+    background-color: #ffffff00;
+    border: 0.3vw solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile img {
+    width: 30vw;
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+.navbar {
+    margin-top: 1vw;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    z-index: 9;
+    padding: 1vw;
+}
+.navbar .navlist {
+    display: flex;
+    gap: 6vw;
+    font-size: 1.2vw;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.contact {
+    margin-right: 30px;
+}
+.container-fluid {
+    overflow-x: hidden;
+}
+.container-fluid .Name {
+    margin-top: 5vw;
+    font-size: 10vw;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.container-fluid .Surname {
+    margin-left: 9vw;
+    font-size: 10vw;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.container-fluid .Job {
+    font-size: 2vw;
+    font-family: 'Jost', sans-serif;
+}
+h2 {
+    font-size: 4vw;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin-top: 5%;
+    font-family: 'Jost', sans-serif;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.card {
+    flex: 1 1 20rem;
+    padding: 1vw;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 20px;
+    border-color: black;
+}
+.card .card-title {
+    padding: 1.2vw;
+    font-size: 2.4vw;
+}
+p {
+    margin-left: 1.2vw;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+progress {
+    width: 90%;
+    accent-color: black;
+}
+.exp {
+    margin-left: 10%;
+}
+.col1 {
+    margin-left: 15%;
+    width: 35vw;
+    font-family: 'Jost', sans-serif;
+}
+.col1 p {
+    margin-top: 0;
+    margin-left: 20%;
+    font-size: 1.5vw;
+}
+.col1 .icon .head {
+    margin-top: -5.2vw;
+    font-size: 2.4vw;
+}
+.col2 {
+    margin-left: 10%;
+    width: 35vw;
+    font-family: 'Jost', sans-serif;
+}
+.col2 p {
+    margin-top: 0;
+    margin-left: 20%;
+    font-size: 1.5vw;
+}
+.col2 .icon .head {
+    margin-top: -5.2vw;
+    font-size: 2.4vw;
+}
+.circle {
+    margin-top: 3vw;
+    height: 5vw;
+    width: 5vw;
+    background-color: #ffffff00;
+    border: 0.3vw solid;
+    border-radius: 50%;
+}
+.line {
+    height: 0.3vw;
+    width: 15vw;
+    border-radius: 5px;
+    background-color: black;
+    float: left;
+    margin-top: -1.3vw;
+    margin-left: 4.8vw;
+    padding: 0;
+}
+.circle1 p {
+    margin-left: 50px;
+}
+.circle2 {
+    height: 5vw;
+    width: 5vw;
+    background-color: #ffffff00;
+    border: 0.3vw solid;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle3 {
+    height: 5vw;
+    width: 5vw;
+    background-color: #ffffff00;
+    border: 0.3vw solid;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle4 {
+    height: 5vw;
+    width: 5vw;
+    background-color: #ffffff00;
+    border: 0.3vw solid;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle5 {
+    height: 5vw;
+    width: 5vw;
+    background-color: #ffffff00;
+    border: 0.3vw solid;
+    border-radius: 50%;
+    text-align: center;
+}
+i {
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 16%;
+}
