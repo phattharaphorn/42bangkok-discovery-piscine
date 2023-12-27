@@ -2,7 +2,7 @@
 <img width="500" alt="42bk-pic" src="https://github.com/janrainjer/introduction-to-computer-engineering-lab/assets/88389821/4f9f420c-3df2-4f94-8a6c-11248d5f6a2a">
 </p>
 
-# 42 Bangkok Discovery Piscine and Rush project
+# 42 Bangkok Discovery Piscine 
 - 42 Bangkok using the Ecole 42 learning method. Contents include
   - **Shell** **Script**, is one of the tools that developers must use.
   - **HTML** is the main language for structuring web pages that you can use. We will practice intensively.
