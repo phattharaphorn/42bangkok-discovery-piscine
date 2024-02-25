@@ -1,5 +1,5 @@
 <p align="center">
-<img width="500" alt="42bk-pic" src="https://github.com/janrainjer/introduction-to-computer-engineering-lab/assets/88389821/4f9f420c-3df2-4f94-8a6c-11248d5f6a2a">
+<img width="500" alt="42bk-pic" src="https://github.com/phattharaphorn/42bangkok-discovery-piscine/assets/88389821/eb195991-f873-4c7c-9ca6-f0e63b726d9f">
 </p>
 
 # 42 Bangkok Discovery Piscine 
@@ -44,4 +44,4 @@
 - [CIE Project](cie-project)
   
 ## My project partner
-- Pann Mekmok : Computer Innovation Engineering (CIE) , KMTL
+- Pann Mekmok : Computer Innovation Engineering (CIE) , KMITL
